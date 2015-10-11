@@ -3,12 +3,17 @@ no  : 15204645
 date: 11/10/15
 ref : renewables assignment
 
+Assumption
+The main assumption I made here was to use margin (incremental) costing.  Therefore I assumed that 
+we are incurring the cost of the transport from locations to port all ready and the only incremental 
+cost is the new processing plant to port.  
+
 
 Commercial
-This would not be the best commercial decision making informaiton due to a lack of knowledge of the 
+This would not be the best commercial decision making information due to a lack of knowledge of the 
 road network between locations and ports or nature of the product raw material (in bulk)
-or finished goods (pallatied product).  Based upon prior knowledge a rough cost of €1 per
-mile per full load could be assumed to calculate the costs of the transporatation. 1 mile 
+or finished goods (pallatised product).  Based upon prior knowledge a rough cost of €1 per
+mile per full load could be assumed to calculate the costs of the transportation. 1 mile 
 equates to 1 degree and a conversion as such is included in the cost of the transport
 
 
@@ -16,8 +21,8 @@ Programming
 # plan is to connect database to python
 # convert to numpy array as upon import the values are tuples
 # loop through array to calculate difference between each port and various locations
-# then find the port and location (index) for the the smallest difference 
-# using the cost mentioned above calculate the cost of tansport to port from this location only
+# then find the port and location (index) for the smallest difference 
+# using the cost mentioned above calculate the cost of transport to port from this location only
 
 
 
